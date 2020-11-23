@@ -8,12 +8,12 @@
   align-items: center;
   width: 12rem;
 }
-.brand a {
+/* .brand a {
   font-family: 'Abril Fatface', cursive;
   font-size: 1.4rem;
   color: rgb(0, 77, 128);
   text-decoration: none;  
-}
+} */
 .nav-right-wrap {
   display: flex;  
   justify-content: flex-end;  
@@ -28,12 +28,9 @@
   display: inline-block;
   padding: 1.4rem 0;
 }
-.nav-right li a {
-  font-size: 1.2rem;
-  letter-spacing: 0.15rem;
-  color: rgb(0, 77, 128);
-  text-decoration: none;
-}
+/* .nav-right li a {
+  
+} */
 .nav-right li a:visited {
   color: rgb(0, 77, 128);
 }

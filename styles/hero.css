@@ -1,0 +1,32 @@
+/* HERO HEADER */
+
+.hero {
+  background-image: url("../assets/tree1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* box-shadow: inset 0 0 0 1000px rgba(46, 60, 72, 0.6);   */
+  /* background-color: #2E3C48; */
+  color: #fcfcfc;
+  width: 100%;
+  height: 31rem;
+}
+
+.hero-text-wrap {
+  position: absolute;
+  top: 50%;
+  left: 2rem;
+  transform: translateY(-50%);
+  margin-left: 4rem;
+}
+@media screen and (max-width: 780px) {
+  .hero-text1, .hero-text2 {
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .hero-text1, .hero-text2 {
+    font-size: 1.2rem;
+    line-height: 2.0rem;
+  }
+}

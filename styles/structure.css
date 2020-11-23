@@ -4,47 +4,11 @@ body {
 }
 
 .page-wrap {
-  margin: 0 2.5rem;
+  margin: 0 1rem;
 }
 
-/* .nav-wrap {
-  display: flex;
-	justify-content: flex-end;
-  background-color: #fcfcfc;
-}
 
-.nav {
-  display: flex;
-  justify-content: space-between;
-  background-color: #fcfcfc;
-  width: 100%;
-  height: 3rem;
-  margin: 1rem;
-  border: 2px solid darkred;
-}
-.navbar-brand {
-  display: flex;
-  align-items: center;
-}
-.nav-list {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.nav-item {
-  display: inline-block;
-} */
 
-.divide1 {
-  background-image: url("../assets/tree1.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* box-shadow: inset 0 0 0 1000px rgba(46, 60, 72, 0.6);   */
-  /* background-color: #2E3C48; */
-  color: #fcfcfc;
-  width: 100%;
-  height: 31rem;
-}
 
 .divide2 {  
   width: 100%;
