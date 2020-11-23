@@ -2,9 +2,9 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 0.85rem;
-  line-height: 1.5rem;
-  letter-spacing: 0.1rem;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  letter-spacing: 0.02rem; 
 }
 
 .brand a {
@@ -39,5 +39,21 @@ body {
 }
 
 .hero-text3 {
-}  
+} 
+
+.s-head {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 5.75rem;  
+}
+
+.s-subh {
+  font-size: 1.25rem;;
+  font-family: 'Abril Fatface', cursive;
+  margin-bottom: 0.4rem;
+}
+
+.s-content p {
+  margin-bottom: 0.9rem; 
+}
+
 

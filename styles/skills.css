@@ -1,0 +1,41 @@
+.skills {
+  display: flex;
+  background-image: url("../assets/tree1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fcfcfc;
+  width: 100%;
+}
+.s-header-wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 94vh;
+  /* border: 1px solid red; */
+}
+.s-text-wrap {
+  position: relative;
+  width: 60%;
+  height: 94vh; 
+  /* border: 1px solid green; */
+}
+.s-content {
+  position: absolute;
+  top: 0rem;
+  right: 2rem;
+  padding: 1rem;
+  background-color: rgba(34, 8, 3, 0.7);
+}
+
+@media screen and (max-width: 768px) {
+  .skills{
+    flex-wrap: wrap;
+  }
+  .s-header-wrap {
+    width: 100%;  
+  }
+  .s-text-wrap {
+    width: 100%;
+  }
+} 
