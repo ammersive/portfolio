@@ -12,11 +12,16 @@
 }
 
 .hero-text-wrap {
+  box-sizing: border-box;
   position: absolute;
   top: 50%;
   left: 2rem;
   transform: translateY(-50%);
-  margin-left: 4rem;
+  margin-left: 5rem;
+  padding: 2.5rem 0rem 2.5rem 3rem;
+  background-color: rgba(0, 42, 70, 0.6);
+  width: 474px;
+  height: 29rem; 
 }
 @media screen and (max-width: 780px) {
   .hero-text1, .hero-text2 {

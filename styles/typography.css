@@ -28,7 +28,14 @@ body {
 .hero-text2 {
   font-family: 'Abril Fatface', cursive;
   font-size: 6rem;
-  margin: 3rem;
+  margin: 4rem 2rem;
+  overflow: visible;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.overflow {
+  color: rgb(178, 231, 226);
 }
 
 .hero-text3 {
