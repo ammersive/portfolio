@@ -22,7 +22,7 @@
   align-items: center;  
 }
 .nav-right li:not(:last-child) {
-  margin-right: 3rem;
+  margin-right: 2.5rem;
 }
 .nav-right li {
   display: inline-block;
