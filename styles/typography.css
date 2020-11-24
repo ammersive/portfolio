@@ -56,4 +56,10 @@ body {
   margin-bottom: 0.9rem; 
 }
 
+.a-head {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 5.75rem;
+  color: rgb(0, 77, 128);  
+}
+
 

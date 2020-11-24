@@ -1,0 +1,44 @@
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem auto;
+  width: 35.6rem;
+  border: 1px solid green;
+  
+}
+
+.about-box {
+  box-sizing: border-box;
+  flex-shrink: 0;
+  width: 50%;
+  min-height: 18rem;
+  border: 1px solid red;
+}
+
+.about-text {
+  padding: 0.75rem;
+}
+
+.about-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-fig {
+  display: flex; 
+  align-items: center;
+}
+
+.about-fig img {   
+  width: 100%;  
+}
+
+@media screen and (max-width: 768px) {
+  .about{
+    width: 18rem;
+  }
+  .about-box {
+    width: 100%;
+  }
+} 
