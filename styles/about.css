@@ -3,7 +3,9 @@
   flex-wrap: wrap;
   margin: 1rem auto;
   width: 35.6rem;
-  border: 1px solid green;
+  /* accounts for box line up */
+  background-color: rgb(247, 234, 229);
+  /* border: 1px solid green; */
   
 }
 
@@ -11,18 +13,22 @@
   box-sizing: border-box;
   flex-shrink: 0;
   width: 50%;
-  min-height: 18rem;
-  border: 1px solid red;
+  height: 17.8rem;
+  background-color: rgb(244, 231, 218);
+  /* border: 1px solid red; */
 }
 
 .a-text {
   padding: 0.75rem;
 }
 
-.about-2 {
+.a-head-wrap {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; 
+  /* squares layout fine-tuning */
+  height: 17.66rem; 
+  background-color: rgb(169, 164, 153);
 }
 
 .about-fig {
