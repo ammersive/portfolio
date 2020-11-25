@@ -4,7 +4,7 @@
   margin: 1rem auto;
   width: 35.6rem;
   /* accounts for box line up */
-  background-color: rgb(247, 234, 229);
+  background-color: rgb(244, 231, 218);
   /* border: 1px solid green; */
   
 }
@@ -19,7 +19,14 @@
 }
 
 .a-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding: 0.75rem;
+}
+
+.a-text p{
+  margin: 0rem auto;
 }
 
 .a-head-wrap {
@@ -46,5 +53,23 @@
   }
   .about-box {
     width: 100%;
+  }
+  .about-box:nth-child(4) {
+    order: 3;
+  }
+  .about-box:nth-child(3) {
+    order: 4;
+  }
+  .about-box:nth-child(5) {
+    order: 5;
+  }
+  .about-box:nth-child(6) {
+    order: 6;
+  }
+  .about-box:nth-child(8) {
+    order: 7;
+  }
+  .about-box:nth-child(7) {
+    order: 8;
   }
 } 
