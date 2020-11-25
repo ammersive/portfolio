@@ -1,0 +1,8 @@
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem auto;
+  width: 35.6rem;
+  background-color: rgb(244, 231, 218);
+  border: 1px solid green;  
+}
