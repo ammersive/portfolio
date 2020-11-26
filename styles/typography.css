@@ -2,8 +2,8 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 0.8rem;
-  line-height: 1.2rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
   letter-spacing: 0.02rem; 
 }
 
@@ -47,10 +47,16 @@ body {
 }
 
 .s-subh {
-  font-size: 1.25rem;;
+  font-weight: 800;
+  /* font-size: 1.25rem;;
   font-family: 'Abril Fatface', cursive;
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.4rem; */
 }
+
+.pink {
+  font-weight: 800;
+  color: rgb(249, 16, 70);
+}  
 
 .s-content p {
   margin-bottom: 0.9rem; 
