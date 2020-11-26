@@ -71,8 +71,8 @@
     order: 8;
   }
 } 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 575px) {
   .projects {
-    width: 18rem;
+    width: 22.3rem;
   }
 } 
