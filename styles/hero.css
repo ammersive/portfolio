@@ -20,7 +20,8 @@
   left: 3rem;
   padding: 1.5rem 0rem 1.5rem 1.5rem;
   background-color: rgba(34, 8, 3, 0.7);
-  width: 542px;
+  /* width: 542px; */
+  width: 553px;
   height: 79vh; 
 }
 @media screen and (max-width: 1024px) {
