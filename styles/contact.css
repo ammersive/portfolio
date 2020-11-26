@@ -8,10 +8,10 @@
   margin-bottom: 1rem;
 }
 .c-header-wrap{
+  box-sizing: border-box;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  box-sizing: border-box;
   width: 50%;
   height: 27.7rem;
   padding: 1rem;
