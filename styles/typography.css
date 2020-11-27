@@ -73,7 +73,8 @@ body {
 .p-head {
   font-family: 'Abril Fatface', cursive;
   font-size: 5.75rem;
-  color: rgb(0, 77, 128);  
+  color: rgb(0, 77, 128); 
+  line-height: 6rem; 
 }
 
 

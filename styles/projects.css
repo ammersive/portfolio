@@ -23,6 +23,13 @@
   padding: 0.75rem;
 }
 
+.p-head-wide {
+  display: block;
+}
+.p-head-sm {
+  display: none;
+}
+
 .p-head-wrap {
   display: flex;
   justify-content: center;
@@ -69,6 +76,19 @@
 } 
 @media screen and (max-width: 575px) {
   .projects {
-    width: 22.3rem;
+    width: 100%;
+  }
+  .p-head-wrap{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .p-head-sm {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+  .p-head-wide {
+    display: none;
   }
 } 

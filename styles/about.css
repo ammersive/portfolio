@@ -72,3 +72,9 @@
     order: 8;
   }
 } 
+
+@media screen and (max-width: 500px) {
+  .about {
+    width: 100%;
+  }
+} 
