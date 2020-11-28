@@ -33,12 +33,13 @@ body {
 .h-text1 {
   font-size: 1.3rem;
   line-height: 2rem;
-  margin-bottom: 10rem;
+  margin-bottom: 1rem;
 }
 
 .h-text2 {
   font-size: 1.1rem;
   line-height: 2rem;
+  margin-top: 1rem;
 }
 
 /* .hero-text2 {
@@ -73,7 +74,7 @@ body {
 }
 
 .pink {
-  font-weight: 800;
+  /* font-weight: 800; */
   color: rgb(249, 16, 70);
 }  
 

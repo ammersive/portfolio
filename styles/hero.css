@@ -17,7 +17,6 @@
   align-items: flex-end;
   width: 620px;
   height: 26.9rem; 
-  /* border: 5px solid lawngreen; */
 }
 
 .terminal {
@@ -25,48 +24,56 @@
   padding: 1.5rem 0rem 1.5rem 1.5rem;
   background-color: rgba(34, 8, 3, 0.7);
   width: 90%;
-  height: 85%; 
-  /* border: 5px solid teal; */
+  height: 95%; 
 }
 
 .dev {
-  position: absolute;
-  top: 5rem;
-  left: 3rem;
-  display: flex;
-  flex-wrap: wrap;
+  margin-left: 3.3rem;
+  white-space: nowrap;
+  text-align: right;
 }
+
+.overflow {
+  overflow: visible;
+}
+
+@media screen and (max-width: 1000px) {
+  .dev {
+    white-space: normal;
+    word-break: break-all;
+    padding-right: 1rem;
+  }
+  .h-text1 {
+    margin-bottom: 0rem;
+  }
+  .no-o {
+    /* word-wrap: unset; */
+    white-space: nowrap;
+  }
+}
+
+/* on phone:
+.dev {
+  white-space: normal;
+}  */
 
 @media screen and (max-width: 660px) {
   .hero-left {
     width: 100%;
     height: auto;
+    padding-top: 1.4rem;
+  } 
+  .no-o {
+    white-space: normal;
   } 
 }  
 
-/* @media screen and (max-width: 1024px) {
-  .brand a {
-    color: red;
-  } 
-  .hero-text2 {
-    font-size: 3.8rem;
+@media screen and (max-width: 500px) {
+  .dev {
+    width: 12rem;
+    margin: 2rem 0rem 4rem 5rem;
   }
-  .hero-text-wrap {
-    width: 387px;
+  .overflow {
+    padding-left: 1rem;
   }
 }  
-
-@media screen and (max-width: 768px) {
-  .brand a {
-    color: blue;
-  }
-  .hero-text-wrap {
-    width: 387px;
-  }
-}   
-
-@media screen and (max-width: 480px) {
-  .brand a {
-    color: red;
-  }
-}  */
