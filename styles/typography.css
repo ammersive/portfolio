@@ -20,26 +20,42 @@ body {
   text-decoration: none;
 }  
 
-.hero-text1 {
+.h-head {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 5.75rem;
+  line-height: 6rem;
+  /* margin: 4rem 2rem; */
+  /* overflow: visible;
+  white-space: nowrap;
+  text-overflow: ellipsis; */
+}
+
+.h-text1 {
   font-size: 1.3rem;
+  line-height: 2rem;
+  margin-bottom: 10rem;
+}
+
+.h-text2 {
+  font-size: 1.1rem;
   line-height: 2rem;
 }
 
-.hero-text2 {
+/* .hero-text2 {
   font-family: 'Abril Fatface', cursive;
   font-size: 5.75rem;
   margin: 4rem 2rem;
   overflow: visible;
   white-space: nowrap;
   text-overflow: ellipsis;
-}
+} */
 
-.overflow {
+/* .overflow {
   color: rgb(178, 231, 226);
-}
+} */
 
-.hero-text3 {
-} 
+/* .hero-text3 {
+}  */
 
 .s-head {
   font-family: 'Abril Fatface', cursive;
