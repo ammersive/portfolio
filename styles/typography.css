@@ -73,10 +73,13 @@ body {
   font-weight: 800;
 }
 
-.pink {
-  /* font-weight: 800; */
+.red {
+  font-weight: 800;
   color: rgb(249, 16, 70);
 }  
+.red-h {
+  color: rgb(249, 16, 70);
+} 
 
 .s-content p {
   margin-bottom: 0.9rem; 
