@@ -23,6 +23,10 @@
   padding: 0.75rem;
 }
 
+.p-text > * {
+  text-align: center;
+}
+
 .p-head-wide {
   display: block;
 }
@@ -36,7 +40,8 @@
   align-items: center; 
   /* squares layout fine-tuning */
   height: 23.85rem; 
-  background-color: rgb(176, 137, 123);
+  /* background-color: rgb(176, 137, 123); */
+  background-color: rgb(249, 90, 93);
 }
 
 .p-fig {

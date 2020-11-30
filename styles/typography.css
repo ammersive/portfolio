@@ -85,6 +85,17 @@ body {
   margin-bottom: 0.9rem; 
 }
 
+.p-title {
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+}
+.p-bullets {
+  font-size: 1.3rem;
+  line-height: 1.6rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.7rem;
+}
+
 .a-head {
   font-family: 'Abril Fatface', cursive;
   font-size: 5.75rem;
