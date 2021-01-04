@@ -1,0 +1,201 @@
+.cv-body{
+  background-color: rgb(46, 60, 72);
+}
+
+.cv-page {
+  box-sizing: border-box;
+  background: white;
+  max-width: 21cm;
+  min-height: 29.7cm;
+  display: block;
+  /* margin: 1rem auto;
+  margin-bottom: 0.5cm; */
+  /* padding: 2rem; */
+  padding: 3.5rem 2rem 3rem 2rem;
+  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+  /* border: solid purple 2px; */
+}
+
+/* HEADER STYLES */
+
+.cv-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* border: solid green 2px; */
+}
+
+.cv-heading-wrap {
+  /* border: solid blue 2px; */
+}
+
+.cv-header h1 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 2.1rem;
+  color: rgb(0, 77, 128); 
+  line-height: 1.9rem; 
+  margin: 1rem;
+  /* border: solid palegreen 2px; */
+}
+
+.cv-header h2 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 2.1rem;
+  color: rgb(249, 16, 70);
+  line-height: 1.9rem; 
+  margin: 1rem;
+  /* border: solid palegreen 2px; */
+}
+
+/* Contact links */
+
+.cv-links-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  /* border: solid blue 2px; */
+}
+
+.cv-links-wrap li {
+  list-style: none;
+  text-align: right;
+  font-size: 0.8rem;
+}
+
+.cv-links-wrap li a {
+  text-decoration: none;
+  color: rgb(46, 60, 72);
+}
+
+.cv-links-wrap li a:visited {
+  color: rgb(46, 60, 72);
+}
+
+.cv-links-wrap li a:hover {
+  color: rgb(249, 16, 70);
+}
+
+/* Overview */
+
+.overview-p {
+  font-size: 0.8rem;
+  line-height: 1.1rem;
+  padding: 0rem 1rem 2rem 1rem;
+  /* border: solid 2px orange; */
+}
+
+
+/* SECTION STYLES */
+
+.cv-section {
+  display: flex;  
+  /* border: blue 2px solid; */
+}
+
+.cv-section-header {
+  box-sizing: content-box;
+  width: 20%;
+  padding: 0rem 0rem 1rem 1rem;
+  /* border: solid 2px orange; */
+}
+
+.cv-section-header h3 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 1.25rem;
+  color: rgb(249, 16, 70);
+  line-height: 1.6rem; 
+}
+
+.cv-content-wrap {
+  box-sizing: content-box;
+  width: 78%;
+  padding: 0rem 1rem 1rem 1rem;
+  /* border: solid 2px pink; */
+}
+
+.cv-content-wrap h4 {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: rgb(0, 77, 128); 
+}
+
+.cv-section p {
+  font-size: 0.6rem;
+  line-height: 0.8rem;
+  margin-bottom: 0.3rem;
+}
+
+.cv-skills-span {
+  font-weight: bold;
+  color: rgb(0, 77, 128); 
+}
+
+.cv-section p.cv-red {
+  color: rgb(249, 16, 70);
+}
+
+.cv-section a {  
+  text-decoration: none;
+  color: rgb(249, 16, 70);
+}
+
+.cv-section a:visited {
+  color: rgb(249, 16, 70);  
+}
+
+.cv-section a:hover {
+  color: rgb(160, 24, 56);  
+}
+
+.cv-page p strong {
+  font-weight: 700;
+}
+
+.cv-section p.more {  
+  text-align: right;
+  color: rgb(46, 60, 72);
+}
+
+.cv-section .dates {
+  color: rgb(249, 16, 70);  
+}
+
+.employment-list li {
+  list-style: outside;
+  font-size: 0.6rem;
+  line-height: 0.8rem;
+  margin-left: 1rem;
+  margin-bottom: 0.15rem;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.old {
+  padding-top: 0.5rem;
+}
+
+.hobbies {
+  padding-top: 0.5rem;
+}
+
+.ref {
+  font-size: 0.6rem;
+  line-height: 0.8rem;
+  font-style: italic;
+  text-align: center;
+}
+
+@media screen and (max-width: 620px) {
+  .cv-section {
+    flex-wrap: wrap;
+  }
+  .cv-content-wrap {
+    width: 100%;
+  }
+}
+
+
+
