@@ -42,21 +42,48 @@ body {
   margin-top: 1rem;
 }
 
-/* .hero-text2 {
+.p-head {
   font-family: 'Abril Fatface', cursive;
   font-size: 5.75rem;
-  margin: 4rem 2rem;
-  overflow: visible;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-} */
+  color: rgb(46, 60, 72); 
+  line-height: 6rem; 
+}
 
-/* .overflow {
-  color: rgb(178, 231, 226);
-} */
+.p-title {
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+.projects p {
+  font-size: 0.9rem;
+}
 
-/* .hero-text3 {
-}  */
+.p-subt {
+  color: rgb(0, 77, 128);
+  margin-bottom: 0.5rem; 
+}
+
+.p-tech {
+  font-weight: 700;
+}
+
+.p-links {
+  margin-bottom: 0.5rem;
+  margin-top: 0.7rem;
+}
+
+.projects a {
+  text-decoration: none;
+  color: rgb(249, 16, 70);
+}
+
+.projects a:visited {
+  color: rgb(249, 16, 70);
+}
+
+.projects a:hover {
+  color: rgb(160, 24, 56); 
+}
 
 .s-head {
   font-family: 'Abril Fatface', cursive;
@@ -85,27 +112,12 @@ body {
   margin-bottom: 0.9rem; 
 }
 
-.p-title {
-  font-size: 1.8rem;
-  line-height: 2.5rem;
-}
-.p-bullets {
-  font-size: 1.3rem;
-  line-height: 1.6rem;
-  margin-bottom: 0.5rem;
-  margin-top: 0.7rem;
-}
-
 .a-head {
   font-family: 'Abril Fatface', cursive;
   font-size: 5.75rem;
   color: rgb(0, 77, 128);  
+  color: rgb(159, 13, 47);
 }
-.p-head {
-  font-family: 'Abril Fatface', cursive;
-  font-size: 5.75rem;
-  color: rgb(0, 77, 128); 
-  line-height: 6rem; 
-}
+
 
 
