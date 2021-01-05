@@ -21,26 +21,27 @@
   text-align: right;
 }
 
-.nav-2 a {
+.nav-2 p {
   display: inline-block;
   padding-left: 4rem;
+  letter-spacing: 0.1rem;    
+}
+
+.nav-2 p a {
+  color: rgb(46, 60, 72); 
   text-decoration: none;
+}
+
+.nav-2 p a:visited {
   color: rgb(46, 60, 72); 
 }
 
-.nav-2 a:visited {
-  color: rgb(46, 60, 72); 
-}
-
-.nav-2 a:hover {
+.nav-2 p a:hover {
   color: rgb(249, 16, 70);
 }
 
 @media screen and (max-width: 780px) {
-  .nav-2 a {
+  .nav-2 p {
     padding-left: 1.7rem;
-  }  
-  .nav-2 .adjust {
-    padding-left: 1.5rem;
-  }
+  } 
 }
