@@ -58,6 +58,11 @@ body {
   font-size: 0.9rem;
 }
 
+.proj-overview .p-padded {
+  padding-top: 2rem;
+}
+
+
 .p-subt {
   color: rgb(0, 77, 128);
   margin-bottom: 0.5rem; 
@@ -72,16 +77,16 @@ body {
   margin-top: 0.7rem;
 }
 
-.projects a {
+.projects a, .about a {
   text-decoration: none;
   color: rgb(249, 16, 70);
 }
 
-.projects a:visited {
+.projects a:visited, .about a:visited {
   color: rgb(249, 16, 70);
 }
 
-.projects a:hover {
+.projects a:hover, .about a:hover {
   color: rgb(160, 24, 56); 
 }
 
@@ -117,6 +122,22 @@ body {
   font-size: 5.75rem;
   color: rgb(0, 77, 128);  
   color: rgb(159, 13, 47);
+}
+.contact i {
+  padding-right: 0.3rem;
+}
+
+.contact a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.contact a:visited {
+  color: rgb(255, 255, 255);
+}
+
+.contact a:hover {
+  color: rgb(249, 16, 70); 
 }
 
 
