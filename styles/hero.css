@@ -46,8 +46,7 @@
   .h-text1 {
     margin-bottom: 0rem;
   }
-  .red-head {
-    /* word-wrap: unset; */
+  .red-head, .web-dev {
     white-space: nowrap;
   }
 }
@@ -63,7 +62,7 @@
     height: auto;
     padding-top: 1.4rem;
   } 
-  .red-head {
+  .red-head, .web-dev {
     white-space: normal;
   } 
 }  

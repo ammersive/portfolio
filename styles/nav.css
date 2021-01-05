@@ -6,34 +6,41 @@
 .brand-wrap {
   display: flex;
   align-items: center;
-  width: 12rem;
 }
 
 .nav-right-wrap {
-  display: flex;  
+  display: flex;
+  flex-wrap: wrap;  
+  align-items: center;
   justify-content: flex-end;  
 }
-.nav-right {
-  align-items: center;  
+.nav-2 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;   
+  text-align: right;
 }
-.nav-right li:not(:last-child) {
-  margin-right: 2.5rem;
-}
-.nav-right li {
+
+.nav-2 a {
   display: inline-block;
-  padding: 1.4rem 0;
+  padding-left: 4rem;
+  text-decoration: none;
+  color: rgb(46, 60, 72); 
 }
 
-.nav-right li a:visited {
-  color: rgb(0, 77, 128);
-}
-.nav-right li a:hover {
-  color: red;
+.nav-2 a:visited {
+  color: rgb(46, 60, 72); 
 }
 
-/* NAV MEDIA QUERIES */
+.nav-2 a:hover {
+  color: rgb(249, 16, 70);
+}
+
 @media screen and (max-width: 780px) {
-  /* ul.nav-right {
-    display: none;
-  } */
+  .nav-2 a {
+    padding-left: 1.7rem;
+  }  
+  .nav-2 .adjust {
+    padding-left: 1.5rem;
+  }
 }

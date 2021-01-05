@@ -13,21 +13,17 @@
   align-items: center;
   width: 40%;
   height: 33rem;
-  /* border: 1px solid red; */
 }
 .s-text-wrap {
   display: flex;
   width: 70%;
   height: 33rem;
-  /* border: 1px solid green; */
+  
 }
 .s-content {
-  /* position: absolute;
-  top: 0rem;
-  right: 2rem; */
   box-sizing: border-box;
   width: 90%;
-  height: 90%;
+  height: 95%;
   padding: 1rem;
   background-color: rgba(34, 8, 3, 0.7);
 }
@@ -39,7 +35,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 890px) {
   .skills{
     flex-wrap: wrap;
   }
