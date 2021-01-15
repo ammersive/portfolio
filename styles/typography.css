@@ -104,6 +104,7 @@ body {
 
 .red {
   font-weight: 800;
+  color: #f91046;
   color: rgb(249, 16, 70);
 }  
 .red-h {
@@ -145,7 +146,7 @@ body {
 .for-icon {
   font-family: 'Abril Fatface', cursive;
   font-size: 30rem;
-  color: rgb(0, 77, 128);
+  color: rgb(249, 16, 70); 
   margin: 20rem;
 }
 
