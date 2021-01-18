@@ -5,7 +5,7 @@
   background-image: url("../assets/tree1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  color: #fcfcfc;
+  color: rgb(250, 248, 240);
   width: 100%;
 }
 .hero-left {
@@ -47,11 +47,6 @@
     white-space: nowrap;
   }
 }
-
-/* on phone:
-.dev {
-  white-space: normal;
-}  */
 
 @media screen and (max-width: 660px) {
   .hero-left {

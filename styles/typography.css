@@ -12,7 +12,7 @@ body {
   font-family: 'Abril Fatface', cursive;
   font-size: 1.2rem;
   color: rgb(0, 77, 128);
-  text-decoration: none;  
+  text-decoration: none;    
 }
 
 .nav-right li a {
@@ -25,10 +25,6 @@ body {
   font-family: 'Abril Fatface', cursive;
   font-size: 5.75rem;
   line-height: 6rem;
-  /* margin: 4rem 2rem; */
-  /* overflow: visible;
-  white-space: nowrap;
-  text-overflow: ellipsis; */
 }
 
 .h-text1 {
@@ -47,7 +43,7 @@ body {
 .p-head {
   font-family: 'Abril Fatface', cursive;
   font-size: 5.75rem;
-  color: rgb(46, 60, 72); 
+  color: rgb(208, 189, 168);
   line-height: 6rem; 
 }
 
@@ -104,7 +100,6 @@ body {
 
 .red {
   font-weight: 800;
-  color: #f91046;
   color: rgb(249, 16, 70);
 }  
 .red-h {
@@ -117,8 +112,7 @@ body {
 
 .a-head {
   font-family: 'Abril Fatface', cursive;
-  font-size: 5.75rem;
-  color: rgb(0, 77, 128);  
+  font-size: 5.75rem; 
   color: rgb(159, 13, 47);
 }
 .contact i {
@@ -127,11 +121,11 @@ body {
 
 .contact a {
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: rgb(250, 248, 240);
 }
 
 .contact a:visited {
-  color: rgb(255, 255, 255);
+  color: rgb(250, 248, 240);
 }
 
 .contact a:hover {
@@ -143,11 +137,11 @@ body {
   font-weight: 800;
 }
 
-.for-icon {
+/* .for-icon {
   font-family: 'Abril Fatface', cursive;
   font-size: 30rem;
   color: rgb(249, 16, 70); 
   margin: 20rem;
-}
+} */
 
 
