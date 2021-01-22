@@ -22,9 +22,17 @@ body {
 }  
 
 .h-head {
+  display: inline-block;
   font-family: 'Abril Fatface', cursive;
   font-size: 5.75rem;
   line-height: 6rem;
+}
+
+.h-fs-head {
+  font-family: 'Abril Fatface', cursive;
+  color: rgb(249, 16, 70);
+  font-size: 4.75rem;
+  line-height: 4rem;
 }
 
 .h-text1 {
@@ -43,7 +51,7 @@ body {
 .p-head {
   font-family: 'Abril Fatface', cursive;
   font-size: 5.75rem;
-  color: rgb(208, 189, 168);
+  color: rgb(242, 217, 193);
   line-height: 6rem; 
 }
 

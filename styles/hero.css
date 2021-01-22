@@ -30,6 +30,10 @@
   text-align: right;
 }
 
+.h-fs {
+  display: inline-block;
+}
+
 .overflow {
   overflow: visible;
 }
@@ -62,9 +66,12 @@
 @media screen and (max-width: 500px) {
   .dev {
     width: 12rem;
-    margin: 2rem 0rem 4rem 5rem;
+    margin: 2rem 0rem 4rem 3rem;
   }
   .overflow {
     padding-left: 1rem;
+  }
+  .h-fs h2 {
+    font-size: 4rem;
   }
 }  
