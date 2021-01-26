@@ -21,4 +21,4 @@ I'm interested in building applications that make abstract information easier to
 
 I'm currently available for work/collaboration: send me an [email](mailto:sophie.stammers@gmail.com).
 
-<img src="assets/projects1.jpg" height="242" > <img src="assets/projects2.jpg" height="242" > <img src="assets/skills.jpg" height="242" >
+<img src="assets/projects1.jpg" height="237" > <img src="assets/projects2.jpg" height="237" > <img src="assets/skills.jpg" height="237" >
