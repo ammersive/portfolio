@@ -8,6 +8,19 @@ It includes links to my deployed projects, CV and contact details, an overview o
 
 ### See the site itself [here](https://ammersive.github.io/portfolio/).
 
+# Details
+
+The site is built using HTML5 and CSS, in line with responsive design and web accessibility principles. The main page (index.html) contains:
+
+- navigation bar with links to:
+- hero section with terminal styling and headline
+- projects section with short descriptions and links/repos
+- skills section
+- about section
+- contact 
+
+A web CV page (assets/cv.html) is linked from the contact section, where a pdf version is also available. All CSS styling can be found in the styles/ directory, whilst images and the cv pdf can be found in assets/ .
+
 ## About Sophie
 
 I love solving problems and building solutions with efficient, scalable, maintainable code. 
